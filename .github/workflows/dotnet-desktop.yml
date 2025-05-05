@@ -20,7 +20,7 @@ jobs:
         uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ secrets.EC2_HOST }}
-          username: deployer
+          username: ec2-user
           key: ${{ secrets.EC2_SSH_KEY }}
           source: "publish/*"
           target: "/var/www/myapi/"
