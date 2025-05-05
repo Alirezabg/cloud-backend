@@ -7,4 +7,8 @@
     <RootNamespace>cloud_backend</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include=".github\workflows\CD.yml" />
+  </ItemGroup>
+
 </Project>
